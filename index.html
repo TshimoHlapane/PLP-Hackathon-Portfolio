@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="images/background.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section (Intro) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Tshimo Hlapane</h1>
+            <p><em>Aspiring Data Analyst & UX/UI Designer</em></p>
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="resume/T Hlapane Resume 2025.pdf" download class="btn">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 style="color: #50307c;">About Me</h2>
+        <p style="color: #8352b4;"><em>Aspiring Data Analyst & UX/UI Designer</em></p>
+        <p>I am an aspiring Data Analyst and UX/UI Designer with a passion for combining analytical insights and user-centered design to create meaningful digital experiences. Currently enrolled in the PLP Academy software engineering scholarship, I am enhancing my technical skills in data science and design to bridge the gap between data and user-centric solutions. <br><br>
+            With a background in administrative roles and project coordination at the NYDA, I have honed my ability to manage stakeholder relationships, analyze business partnerships, and deliver insights that drive strategic decisions. I am excited to leverage these skills in the world of data analytics and design to craft innovative solutions that are both data-driven and intuitive for users. <br><br>
+            Graduating with a Lisans Diplomasi from EUL, I bring a strategic mindset, strong communication, and a problem-solving approach to every project. As I continue my journey, I am committed to creating designs and data solutions that enhance both functionality and user experience.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 style="color: #4c2d76;">My Skills</h2>
+        <div class="skills-container">
+
+            <div class="skill">
+                <i class="fab fa-git-alt"></i>
+                <h3>Git</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <h3>SQL</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-drafting-compass"></i>
+                <h3>Adobe <br> Illustrator</h3>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-file-excel"></i>
+                <h3> Excel <br> Data Analysis</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 style="color: #492b70;">Contact Me</h2>
+        <p class="contact-intro">Feel free to reach out to me. I'll get back to you as soon as possible!</p>
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p>Or reach me directly at:</p>
+            <p>Email: <span>tshimo.hlapane@gmail.com</span></p>
+            <p>LinkedIn: <a href="www.linkedin.com/in/tshimo-hlapane">linkedin.com/in/tshimo-hlapane</a></p>
+            <p>GitHub: <a href="https://github.com/TshimoHlapane">github.com/TshimoHlapane</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <i>2025 Tshimo Hlapane. All rights reserved.</i></p>
+    </footer>
+</body>
+</html>
