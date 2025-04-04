@@ -13,5 +13,4 @@ I have built my portfolio with HTML5, CSS3 & some external elements like Google 
 
 
 Best,
-
 Tshimo
